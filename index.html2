@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CHITTHIWALA – Ek Ek Paise Ka Hisaab</title>
+  <style>
+    body {
+      background-color: #ffe6f0;
+      color: #000;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #4da6ff;
+      padding: 1rem;
+      text-align: center;
+      color: white;
+    }
+    section {
+      padding: 1rem;
+    }
+    .summary-box {
+      background: white;
+      border-radius: 10px;
+      padding: 1rem;
+      margin: 1rem 0;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    button {
+      background-color: #4da6ff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #4da6ff;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CHITTHIWALA</h1>
+    <p>Ek Ek Paise Ka Hisaab</p>
+  </header>
+
+  <section>
+    <h2>📦 Sales Summary</h2>
+    <div class="summary-box">
+      <p><strong>Amazon:</strong> ₹25,000 Profit | ₹2,000 Loss</p>
+      <p><strong>Flipkart:</strong> ₹18,000 Profit | ₹1,500 Loss</p>
+      <p><strong>Meesho:</strong> ₹12,000 Profit | ₹3,000 Loss</p>
+      <hr>
+      <p><strong>Total:</strong> ₹55,000 Profit | ₹6,500 Loss</p>
+      <button onclick="alert('Pie Chart Feature Coming Soon')">See Your Perfect Balance Sheet</button>
+    </div>
+
+    <h2>🏪 SHOP Mode</h2>
+    <div class="summary-box">
+      <p>In-shop sales via cash/bank</p>
+      <p>📷 Barcode Scanning (Coming Soon)</p>
+      <p>✍️ Manual Product Entry Available</p>
+    </div>
+
+    <h2>🧾 Bill Generator</h2>
+    <div class="summary-box">
+      <p>PDF/Thermal Bill with Shop Name & Design</p>
+      <p>Customizable, Printable & Shareable</p>
+    </div>
+  </section>
+
+  <footer>
+    CHITTHIWALA | Office: 2nd Floor, Mehraj Manzil, Baluchawad, Dariyapur, Ahmedabad – 380001
+  </footer>
+</body>
+</html>
