@@ -1,81 +1,80 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CHITTHIWALA – Ek Ek Paise Ka Hisaab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHITTHIWALA</title>
   <style>
     body {
-      background-color: #ffe6f0;
-      color: #000;
-      font-family: sans-serif;
       margin: 0;
-      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffe6f0; /* Light Baby Pink */
+      color: #003366; /* Blue */
+      text-align: center;
     }
     header {
-      background-color: #4da6ff;
-      padding: 1rem;
-      text-align: center;
-      color: white;
+      padding: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
-    section {
-      padding: 1rem;
+    header img {
+      width: 120px;
+      display: block;
+      margin: 0 auto;
     }
-    .summary-box {
-      background: white;
-      border-radius: 10px;
-      padding: 1rem;
-      margin: 1rem 0;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    h1 {
+      margin-top: 10px;
+      font-size: 2.2em;
     }
-    button {
-      background-color: #4da6ff;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
+    h2.tagline {
+      font-size: 1.2em;
+      color: #444;
+      margin-bottom: 20px;
     }
-    footer {
-      background-color: #4da6ff;
-      color: white;
-      text-align: center;
-      padding: 1rem;
+    .features {
+      max-width: 800px;
+      margin: 20px auto;
+      text-align: left;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .features h3 {
+      color: #003366;
+    }
+    .footer {
+      margin-top: 50px;
+      padding: 20px;
+      font-size: 0.9em;
+      background-color: #f2f2f2;
     }
   </style>
 </head>
 <body>
   <header>
+    <img src="2.png" alt="CHITTHIWALA Logo">
     <h1>CHITTHIWALA</h1>
-    <p>Ek Ek Paise Ka Hisaab</p>
+    <h2 class="tagline">EK EK PAISE KA HISAAB</h2>
   </header>
 
-  <section>
-    <h2>📦 Sales Summary</h2>
-    <div class="summary-box">
-      <p><strong>Amazon:</strong> ₹25,000 Profit | ₹2,000 Loss</p>
-      <p><strong>Flipkart:</strong> ₹18,000 Profit | ₹1,500 Loss</p>
-      <p><strong>Meesho:</strong> ₹12,000 Profit | ₹3,000 Loss</p>
-      <hr>
-      <p><strong>Total:</strong> ₹55,000 Profit | ₹6,500 Loss</p>
-      <button onclick="alert('Pie Chart Feature Coming Soon')">See Your Perfect Balance Sheet</button>
-    </div>
+  <div class="features">
+    <h3>✨ Key Features:</h3>
+    <ul>
+      <li>🛒 Amazon, Flipkart, Meesho sales tracking with date, order ID, and payment status</li>
+      <li>📉 Individual & Combined Sales, Profit, and Loss summaries</li>
+      <li>📊 <b>See Your Perfect Balance Sheet</b> – Interactive Pie Chart Summary</li>
+      <li>🏪 "SHOP" Mode – Barcode/Manual product entry and billing</li>
+      <li>🧾 Customizable Thermal/PDF Bills with Your Shop Name</li>
+      <li>📦 Track Returns with reason and platform-wise performance</li>
+      <li>🌐 Multi-language Support for Indian languages</li>
+      <li>🇮🇳 Made for India (Will expand globally in future)</li>
+    </ul>
+  </div>
 
-    <h2>🏪 SHOP Mode</h2>
-    <div class="summary-box">
-      <p>In-shop sales via cash/bank</p>
-      <p>📷 Barcode Scanning (Coming Soon)</p>
-      <p>✍️ Manual Product Entry Available</p>
-    </div>
-
-    <h2>🧾 Bill Generator</h2>
-    <div class="summary-box">
-      <p>PDF/Thermal Bill with Shop Name & Design</p>
-      <p>Customizable, Printable & Shareable</p>
-    </div>
-  </section>
-
-  <footer>
-    CHITTHIWALA | Office: 2nd Floor, Mehraj Manzil, Baluchawad, Dariyapur, Ahmedabad – 380001
-  </footer>
+  <div class="footer">
+    <p>Office: 2nd Floor, Mehraj Manzil, Baluchawad, Dariyapur, Ahmedabad – 380001</p>
+    <p>&copy; 2025 CHITTHIWALA. All rights reserved.</p>
+  </div>
 </body>
 </html>
+
